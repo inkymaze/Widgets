@@ -1,0 +1,41 @@
+
+.clock-widget {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.clock-border {
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.clock-display {
+  margin-top: 20px;
+  display: flex;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  padding: 25px;
+  border-radius: 100px;
+}
+
+.clock-display div {
+  padding: 15px;
+}
+
+.clock-display:hover {
+  background-color: green;
+  -ms-transform: rotate(14deg); /* IE 9 */
+   -webkit-transform: rotate(14deg); /* Chrome, Safari, Opera */
+   transform: rotate(14deg);
+}
+
+.clock-display:active {
+  font-size: 6em;
+  -ms-transform: rotate(-14deg); /* IE 9 */
+   -webkit-transform: rotate(-14deg); /* Chrome, Safari, Opera */
+   transform: rotate(-14deg);
+
+}
